@@ -3,284 +3,126 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: 卓柏辰 Bryan
+  tagline: AI / Software Developer
+  avatar: 形象4.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  email: bryan86874928@gmail.com
+  phone: (+886) 908-632-766
+  timezone: Taiwan/UTC+8 # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Taiwan 
+  #website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: bryanjhuo
+  #xing: alandoe
+  github: BryanJhuo
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  #twitter: '@jekyllrb'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
   mastodon: # Please include your full Mastodon link here.
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  pdf: https://drive.google.com/file/d/1OzG6VIgx8eNIXFYX0CQZJKkD2gyqkkbx/view?usp=share_link# Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Chinese
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: English
+      level: Basic
 
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
+#  interests:
+#    title: Interests
+#    info:
+#    - item: Climbing
+#      link:
 
 
 career-profile:
-  title: Career Profile
+  title: 工作經驗
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    北一文理短期補習班 - 輔導教師 
+    - 擔任數理科目線上與現場團班授課之獨立講師，並在3年內累積教學超過50位高中學生。
+    - 擔任數理科目之個別授課與解題專員，並在3年內輔導超過25位高中學生。
+
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: BSc in Computer Science
+    university: National Taipei University of Technology
+    time: 2022 - 2026
+    #details: |
+      #Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #pretium quis, sem.
+        #- Bullet point
+        #- Bullet point
 
 experiences:
-  title: Experiences
+  title: 專案經驗
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: FuzzMage Synapse
+    time: 2025/01 - Present
+    company: 專案負責人, 主要開發者
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - 主要內容：
+        - 建立程式碼自動化錯誤偵測與 AI 修復系統，能用於大型團隊專案更新時即時測試、分析錯誤並產生修正建議。
+        - 經 AI 自動驗證與修正後回傳測試結果，並依結果自動更新或重新測試，以大幅降低人工除錯與相關維護成本。
+      - 使用技術：Jenkins、Python、AFL++、LLM
+
+  - role: AI_DayLens
+    time: 2025/04 - Present
+    company: 獨立開發者
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - 一款結合 NLP 與生成式 AI 的心情日記 App，使用者可輸入文字或語音記錄每日心情，AI 自動分析情緒狀態並生成「今日小語」。
+      - 支援 Widget 展示 Emoji 情緒、摘要與趨勢圖，並以 SwiftData 實現本地儲存與視覺化歷程記錄。
+      - 使用技術： Swift、SwiftUI、LLM
+      - Repository Link: [AI_DayLens](https://github.com/BryanJhuo/AI_DayLens)
+
+  - role: 員工培訓與知識管理平台 ETKMP
+    time: 2024/09 - 2024/11
+    company: 專案負責人, 主要開發者
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - 主要內容：
+        - 提供公司員工學習專業知識與技能之學習平台，以節省人力培訓成本，進而提高工作效率與生產力。
+        - 訓練專屬Chatbot與搭建學習平台，提供技術性知識之即時問答與專業知識教學。
+        - 融合學習交流論壇，促進知識分享與交流。
+      - 使用技術：Python、LLM、RAG
+      - Repository Link: [ETKMP](https://github.com/Bryan-Eva/ETKMP)
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - role: 星空下的夢想店
+    time: 2024/09 - 2024/12
+    company: 專案負責人, 主要開發者
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - 主要內容
+        - 以業界框架式程式，搭配設計客製化功能，從無到有建立日本動漫商品購物平台。
+        - 利用AI工具（Copilot） 協助編程。
+        - 加入應用UI / UX與figma設計，提升使用流暢性。
+      - 使用技術：React(TypeScript)、TailwindCSS、Golang、PostgreSQL 
+      - Repository Link: [Dream Beneath the Stars](https://github.com/NTUT-Database-System-Course/ACW)
 
 publications:
-  title: Publications
+  title: 聘用我的 3 大理由
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    1. 我樂於接受各種挑戰，能夠快速適應步調快且需求多變的開發環境，面對問題時也能保持冷靜，積極尋找解決方案。
+    2. 我重視團隊合作，又具備獨立完成工作之能力。
+    3. 我具備結合理論與實作的能力，透過多項 AI 與軟體開發專案的經歷，累積了將技術落地、實現需求的實務經驗，能快速上手並投入貢獻。
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
